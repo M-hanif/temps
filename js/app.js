@@ -1,4 +1,7 @@
 var  entry, documentname, documentid, referenceID, callLogID, filePath, blob,cdr,fileObject;
+function testIT2(){
+	alert("other file but outside ");
+}
 var filename = "test.pdf";
 $(document).ready(function() {
 	document.addEventListener("deviceready", onDeviceReady, false);
