@@ -7,6 +7,7 @@ $(document).ready(function() {
 var fileURL = "";
 var imagePath = "";
 function onDeviceReady() {	
+
 	sessionStorage.platform = device.platform;
 	var fileTransfer = new FileTransfer();
      $('#download').click( function() 
@@ -26,7 +27,9 @@ function onDeviceReady() {
 			}
 			
 		});	
-
+        function testIT(){
+			alert("its being calling");
+		};
 		function onError(e) {
 			alert("onError");
 		};
