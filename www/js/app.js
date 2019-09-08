@@ -49,7 +49,7 @@ function onDeviceReady() {
 			dir.getFile(filename,{create:true, exclusive:false},gotFileEntry, errorHandler);
 		};
 		function gotFileEntry(fileEntry) {										
-				var uri = encodeURI("http://SERVER_IP:PORT/test.pdf");			
+				var uri = encodeURI("http://63years.com/wp-content/uploads/2019/09/TaghzeyaFarsiResala.pdf");			
 				alert("dest - " + cdr.nativeURL+filename);
 				fileTransfer.download(uri,cdr.nativeURL+filename,
 					function(entry) {						
